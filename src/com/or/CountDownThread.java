@@ -13,7 +13,7 @@ public class CountDownThread extends Thread{
     @Override
     public void run() {
         while (true) {
-            System.out.println(counter);
+            System.out.println(Thread.currentThread().getName() + ": " + counter);
             counter--;
             try {
                 sleep(rate);

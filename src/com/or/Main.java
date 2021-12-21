@@ -9,5 +9,6 @@ public class Main {
 
         count1.start();
         count2.start();
+
     }
 }
